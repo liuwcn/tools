@@ -13,16 +13,12 @@ export default new Router({
   mode: 'history',
   base: '/tools/',
   routes: [
-    // {
-    //   path: '/',
-    //   component: menu
-    // },
     {
       path: '/food/calorie',
       component: calorie
     },
     {
-      path: '/tools/gpsTransform',
+      path: '/gpsTransform',
       component: gpsTransform
     },
     {
@@ -30,7 +26,7 @@ export default new Router({
       component: systemInfo
     },
     {
-      path: '/tools/color',
+      path: '/color',
       component: systemColor
     }
   ]
