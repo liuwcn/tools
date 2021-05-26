@@ -11,7 +11,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "browserslist": "^4.8.7",
+    "browserslist": "^4.16.5",
     "core-js": "^3.6.4",
     "element-ui": "^2.13.0",
     "vue": "^2.6.10",
